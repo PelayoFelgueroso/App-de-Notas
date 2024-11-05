@@ -41,7 +41,7 @@ export const AppNotas: React.FC = () => {
     };
 
     return (
-        <div className={`appContent ${isBrightMode ? "" : "darkMode"}`}>
+        <>
             <Header />
             <section className="main-root">
                 <h1>Aplicación de Notas</h1>
@@ -51,6 +51,6 @@ export const AppNotas: React.FC = () => {
                 </div>
                 <ListaNotas filter={filter} notas={notas} eliminarNota={eliminarNota} />
             </section>
-        </div>
+        </>
     );
 };

@@ -10,11 +10,6 @@ body.darkMode{
   color: white;
 }
 
-.appContent.darkMode{
-  background-color: #000;
-  color: white;
-}
-
 .input{
   padding: 0;
   border: 0;
